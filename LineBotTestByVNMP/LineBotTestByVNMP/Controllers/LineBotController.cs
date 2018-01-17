@@ -154,13 +154,12 @@ namespace LineBotTestByVNMP.Controllers
                 //}
                 
                 //---------------------------------------------------------------------------
-
-                return Ok();
             }
             catch
             {
-                return Ok();
+                // 可以指定自己Lineid接收錯誤訊息
             }
+            return Ok();
         }
     }
 }
